@@ -33,7 +33,11 @@ void quick_sort(int q[], int l, int r)
     if (l >= r)
         return;
 
+<<<<<<< HEAD
+    int x = (q[l] + q[r])/2, i = l - 1, j = r + 1;
+=======
     int x = q[l], i = l - 1, j = r + 1;
+>>>>>>> 0740c9e61e3c68063268b3ee95a7bd1a3a6e4aa4
 
     while (i < j)
     {
